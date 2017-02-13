@@ -1,9 +1,27 @@
 body {
-	background-color: black;
+	background-color: snow;
+}
+
+h1 {
+	color: black;
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-weight: normal;
 	text-align: center;
+	letter-spacing: 4px;
 }
 
-h1, p {
-	color: white;
+h4 {
+	color:black;
+	font-family: 'avenir', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 2px;
 }
-
+p {
+	color:slategray;
+	font-family:'avenir', sans-serif;
+	font-weight: lighter;
+	text-align: left;
+	margin: 20px 80px;
+	padding: 20px 20px;
+}
