@@ -7,21 +7,41 @@ construction sizes
 }
 
 #construction h1 {
-  font-size: 50px;
-  text-transform: capitalize;
+  font-size: 36px;
   color: #fff;
+  align-content: center;
+  text-align: left;
+  line-height: 40px;
+  padding-bottom: 24px;
+  letter-spacing: 1.8px;
   }
 
+#construction h2 {
+  font-size: 26px;
+  color: #fff;
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 1.27px;
+  text-align: left;
+  line-height: 30px;
+  padding-bottom: 24px;
+}
 #construction p {
-  color: #008;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: .5px;
 }
 
 #construction-container {
-  background: linear-gradient(to left, rgba(52,250,235,1), rgba(219,162,250,1))
+  background: linear-gradient(to left, rgba(212,128,140,1), rgba(191,101,97,1), rgba(118,15,150,1))
 }
 
 #construction a {
-  color: #red; text-decoration: none;
+  color: #4CE7C4; text-decoration: none;
+  font-weight: bold;
 }
 
 #construction a:hover {
