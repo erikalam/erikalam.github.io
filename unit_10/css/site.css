@@ -1,4 +1,35 @@
 /**********************************
+construction sizes
+***********************************/
+#construction {
+  text-align: center;
+  padding: 150px;
+}
+
+#construction h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #fff;
+  }
+
+#construction p {
+  color: #008;
+}
+
+#construction-container {
+  background: linear-gradient(to left, rgba(52,250,235,1), rgba(219,162,250,1))
+}
+
+#construction a {
+  color: #red; text-decoration: none;
+}
+
+#construction a:hover {
+  color: #9CC4E2; text-decoration: none;
+}
+
+
+/**********************************
 GENERAL
 ***********************************/
 
@@ -25,8 +56,6 @@ h3 {
   margin: 0 0 1em 0;
   color: #3A3B3C;
 }
-
-
 
 
 /**********************************
