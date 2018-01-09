@@ -3,11 +3,11 @@ construction sizes
 ***********************************/
 #construction {
   text-align: center;
-  padding: 150px;
+  padding: 10em;
 }
 
 #construction h1 {
-  font-size: 36px;
+  font-size: 3em;
   color: #fff;
   align-content: center;
   text-align: left;
@@ -17,7 +17,7 @@ construction sizes
   }
 
 #construction h2 {
-  font-size: 26px;
+  font-size: 2em;
   color: #fff;
   align-content: center;
   text-transform: uppercase;
@@ -29,7 +29,7 @@ construction sizes
 }
 #construction p {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.25em;
   text-align: left;
   font-weight: lighter;
   letter-spacing: .5px;
@@ -38,14 +38,19 @@ construction sizes
 #construction-container {
   background: linear-gradient(to left, rgba(212,128,140,1), rgba(191,101,97,1), rgba(118,15,150,1))
 }
+/***** Gradient background
+linear-gradient(to left, rgba(212,128,140,1), rgba(191,101,97,1), rgba(118,15,150,1))
+#2CD1B0;
+****/
 
 #construction a {
-  color: #4CE7C4; text-decoration: none;
-  font-weight: bold;
+  color: #fff; text-decoration: none;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 #construction a:hover {
-  color: #9CC4E2; text-decoration: none;
+  color: #fff; text-decoration: none;
 }
 
 
@@ -362,6 +367,7 @@ MEDIA QUERIES
     clear: left;
   }
 
+
   /**********************************
   PAGE: ABOUT
   ***********************************/
@@ -424,4 +430,20 @@ MEDIA QUERIES
   }
 
 
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+  #construction h1 {
+    font-size: 1.75em;
+    line-height: 1.5em;
+  }
+
+  #construction h2 {
+        font-size: 1em;
+  }
+  #construction {
+    text-align: center;
+    padding: 2em;
+  }
 }
