@@ -12,21 +12,44 @@ body {
   font-weight: 300;
 }
 
-#wrapper {
+.wrapperContainer {
   max-width: 100%;
   max-height: 100vh;
   margin: 0 auto;
   padding: 0 20%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
+.book a {
+  background-color: #A2F2DD;
+  color: #222;
+  font-weight: lighter;
+  line-height: .5em;
+  display: inline-block;
+}
+
+.book a:hover {
+  color: #222;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 1.05em;
+  display: inline;
+  text-decoration:underline;
+  text-decoration-color: #A2F2DD;
+  text-decoration-style: solid;
+
+}
 a {
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #8B51FF;
+  color: #222;
+  text-decoration:underline;
+  text-decoration-color: #4BE7BD;
+  text-decoration-style: solid;
+  display: inline;
 }
 
 
@@ -75,7 +98,7 @@ BCKG
   display: block;
   width: 60px;
   height: 60px;
-  background-color: rgba(136, 220, 210, 0.15);
+  background-color: rgba(136, 220, 210, 0.35);
   bottom: -160px;
   -webkit-animation: square 10s infinite;
   animation: square 10s infinite;
@@ -90,7 +113,7 @@ BCKG
           animation-delay: 4s;
   -webkit-animation-duration: 17s;
           animation-duration: 17s;
-  background-color: rgba(136, 220, 210, 0.7);
+  background-color: rgba(136, 220, 210, 0.2);
 }
 .bg-bubbles li:nth-child(2) {
   left: 20%;
@@ -100,7 +123,7 @@ BCKG
           animation-delay: 2s;
   -webkit-animation-duration: 17s;
           animation-duration: 17s;
-  background-color: rgba(139, 81, 255, 0.4);
+  background-color: rgba(139, 81, 255, 0.15);
 }
 .bg-bubbles li:nth-child(3) {
   left: 25%;
@@ -108,7 +131,7 @@ BCKG
   height: 80px;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
-  background-color: rgba(136, 220, 210, 0.35);
+  background-color: rgba(136, 220, 210, 0.15);
 }
 .bg-bubbles li:nth-child(4) {
   left: 40%;
@@ -121,7 +144,7 @@ BCKG
   left: 70%;
   width: 70px;
   height: 70px;
-  background-color: rgba(139, 81, 255, 0.35);
+  background-color: rgba(139, 81, 255, 0.2);
 }
 .bg-bubbles li:nth-child(6) {
   left: 80%;
@@ -129,7 +152,7 @@ BCKG
   height: 130px;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
-  background-color: rgba(136, 220, 210, 0.5);
+  background-color: rgba(136, 220, 210, 0.25);
 }
 .bg-bubbles li:nth-child(7) {
   left: 32%;
@@ -146,7 +169,7 @@ BCKG
           animation-delay: 15s;
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
-  background-color: rgba(139, 81, 255, 0.25);
+  background-color: rgba(139, 81, 255, 0.15);
 }
 .bg-bubbles li:nth-child(9) {
   left: 25%;
@@ -156,7 +179,7 @@ BCKG
           animation-delay: 2s;
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
-  background-color: rgba(136, 220, 210, 0.5);
+  background-color: rgba(136, 220, 210, 0.2);
 }
 .bg-bubbles li:nth-child(10) {
   left: 90%;
@@ -164,7 +187,7 @@ BCKG
   height: 140px;
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
-  background-color: rgba(139, 81, 255, 0.2);
+  background-color: rgba(139, 81, 255, 0.25);
 }
 @-webkit-keyframes square {
   0% {
@@ -198,7 +221,7 @@ h3 {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0em;
   text-transform: none;
   line-height: 0.8em;
@@ -212,7 +235,8 @@ h2 {
 p {
 
   margin: 2em 0em;
-  line-height: 1.75em;
+  line-height: 1.65em;
+  letter-spacing: inherit;
 }
 
 
@@ -298,7 +322,7 @@ nav a:hover {
 MEDIA QUERIES
 ***********************************/
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
   /**********************************
   TWO COLUMN LAYOUT
@@ -313,6 +337,13 @@ MEDIA QUERIES
     width: 50%;
     float: right;
   }
+
+  .wrapperContainer {
+    overflow: scroll;
+    padding: 10%;
+    max-height: 100vh;
+  }
+}
 
   @media screen and (min-width: 660px) {
 
@@ -337,15 +368,15 @@ MEDIA QUERIES
     }
 
     h1 {
-      font-size: 5em;
+      font-size: 3.2em;
     }
 
     h2 {
-      font-size: 2em;
+      font-size: 1.5em;
     }
 
     h3 {
-      font-size: 2em;
+      font-size: 1.5em;
     }
 
     h4 {
@@ -357,7 +388,7 @@ MEDIA QUERIES
       text-transform: uppercase;
     }
     p {
-      font-size: 1.5em;
+      font-size: 1.25em;
       font-weight:300;
       color: #000;
     }
