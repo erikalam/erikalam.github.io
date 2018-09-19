@@ -220,7 +220,8 @@ h3 {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+
+font-family: 'Josefin Sans', sans-serif;
   margin-top: 1em;
   margin-bottom: 0em;
   text-transform: none;
@@ -228,15 +229,16 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: -.8px;
 }
 
 p {
 
   margin: 2em 0em;
-  line-height: 1.65em;
+  line-height: 1.3em;
   letter-spacing: inherit;
+  line-height: 1.5em;
 }
 
 
@@ -289,7 +291,7 @@ nav {
 
 /* logo text */
 h1, h2 {
-  color: #000;
+  color: #3A383C;
 }
 
 /* heading text */
@@ -303,7 +305,7 @@ a {
 
 /* nav link */
 nav a, nav a:visited {
-  color: #3A3B3C;
+  color: #3A383C;
 }
 
 /* selected nav link */
@@ -312,7 +314,7 @@ nav a.selected {
 }
 
 nav a:hover {
-  color: #3A3B3C;
+  color: #3A383C;
   opacity: .5;
 }
 
@@ -368,11 +370,11 @@ MEDIA QUERIES
     }
 
     h1 {
-      font-size: 3.2em;
+      font-size: 2.7em;
     }
 
     h2 {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
     h3 {
@@ -390,7 +392,7 @@ MEDIA QUERIES
     p {
       font-size: 1.25em;
       font-weight:300;
-      color: #000;
+      color: #3A383C;
     }
 /*
     header {
