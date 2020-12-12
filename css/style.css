@@ -8,7 +8,7 @@ html, body {
 
 body {
   display: block;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: 300;
 }
 
@@ -24,7 +24,7 @@ body {
   background-color: #A2F2DD;
   color: #222;
   font-weight: lighter;
-  line-height: .5em;
+  line-height: .8em;
   display: inline-block;
 }
 
@@ -98,7 +98,7 @@ BCKG
   display: block;
   width: 60px;
   height: 60px;
-  background-color: rgba(136, 220, 210, 0.35);
+  background-color: rgba(100, 100, 100, 0.15);
   bottom: -160px;
   -webkit-animation: square 10s infinite;
   animation: square 10s infinite;
@@ -113,7 +113,7 @@ BCKG
           animation-delay: 4s;
   -webkit-animation-duration: 17s;
           animation-duration: 17s;
-  background-color: rgba(136, 220, 210, 0.2);
+  background-color: rgba(100, 100, 100, 0.05);
 }
 .bg-bubbles li:nth-child(2) {
   left: 20%;
@@ -123,7 +123,7 @@ BCKG
           animation-delay: 2s;
   -webkit-animation-duration: 17s;
           animation-duration: 17s;
-  background-color: rgba(139, 81, 255, 0.15);
+  background-color: rgba(100, 100, 100, 0.15);
 }
 .bg-bubbles li:nth-child(3) {
   left: 25%;
@@ -131,7 +131,7 @@ BCKG
   height: 80px;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
-  background-color: rgba(136, 220, 210, 0.15);
+  background-color: rgba(100, 100, 100, 0.05);
 }
 .bg-bubbles li:nth-child(4) {
   left: 40%;
@@ -144,7 +144,7 @@ BCKG
   left: 70%;
   width: 70px;
   height: 70px;
-  background-color: rgba(139, 81, 255, 0.2);
+  background-color: rgba(100, 100, 100, 0.10);
 }
 .bg-bubbles li:nth-child(6) {
   left: 80%;
@@ -152,7 +152,7 @@ BCKG
   height: 130px;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
-  background-color: rgba(136, 220, 210, 0.25);
+  background-color: rgba(100, 100, 100, 0.15);
 }
 .bg-bubbles li:nth-child(7) {
   left: 32%;
@@ -169,7 +169,7 @@ BCKG
           animation-delay: 15s;
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
-  background-color: rgba(139, 81, 255, 0.15);
+  background-color: rgba(100, 100, 100, 0.15);
 }
 .bg-bubbles li:nth-child(9) {
   left: 25%;
@@ -179,7 +179,7 @@ BCKG
           animation-delay: 2s;
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
-  background-color: rgba(136, 220, 210, 0.2);
+  background-color: rgba(100, 100, 100, 0.2);
 }
 .bg-bubbles li:nth-child(10) {
   left: 90%;
@@ -187,7 +187,7 @@ BCKG
   height: 140px;
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
-  background-color: rgba(139, 81, 255, 0.25);
+  background-color: rgba(100, 100, 100, 0.05);
 }
 @-webkit-keyframes square {
   0% {
@@ -221,7 +221,7 @@ h3 {
 
 h1 {
 
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Merriweather', serif;
   margin-top: 1em;
   margin-bottom: 0em;
   text-transform: none;
@@ -229,16 +229,24 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
+  font-family: 'Karla', sans-serif;
   font-weight: 200;
-  letter-spacing: -.8px;
+  margin-top: 1em;
+  line-height: 1.2em;
 }
 
+h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  margin-bottom: 0em;
+}
 p {
 
   margin: 2em 0em;
   line-height: 1.3em;
   letter-spacing: inherit;
   line-height: 1.5em;
+  color: #3A3B3C;
 }
 
 
@@ -374,11 +382,11 @@ MEDIA QUERIES
     }
 
     h2 {
-      font-size: 1.2em;
+      font-size: 1.8em;
     }
 
     h3 {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
     h4 {
@@ -390,7 +398,7 @@ MEDIA QUERIES
       text-transform: uppercase;
     }
     p {
-      font-size: 1.25em;
+      font-size: 1.1em;
       font-weight:300;
       color: #3A383C;
     }
